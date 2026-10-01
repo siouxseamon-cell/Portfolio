@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lekan Peter — Full-Stack Web Developer portfolio">
+    <title>Home | Lekan Peter</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<header class="header">
+    <nav class="navbar container">
+        <a href="home.html" class="logo"><span>Mr Lekan Portfolio</span></a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="about.html" class="">About</a></li>
+            <li><a href="skills.html" class="">Skills</a></li>
+            <li><a href="projects.html" class="">Projects</a></li>
+            <li><a href="services.html" class="">Services</a></li>
+            <li><a href="contact.html" class="">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button id="themeToggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+</header>
+<main>
+
+        <video class="hero-video" autoplay muted loop playsinline preload="metadata">
+            <source src="video/background2.mp4" type="video/mp4">
+        </video>
+        <div class="hero-video-overlay"></div>
+        <div class="hero-glow"></div>
+    
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <div class="hero-text reveal">
+            <p class="hero-intro">Hello, I'm</p>
+            <h1>Lekan <span>Peter</span></h1>
+            <h2>Professional Photographer, Videographer & MC</h2>
+            <p class="hero-description">
+                I turn moments into stories through Photography and Videography,
+                combining creative visuals thoughtful composition, and cinematic storytelling.
+            </p>
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+                <a href="contact.html" class="btn btn-outline">Contact Me</a>
+            </div>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="hero-visual reveal">
+            <div class="image-wrapper">
+                <div class="image-circle"></div>
+                <div class="code-card">
+                    <span>Creator</span>
+                    <span>Photographer</span>
+                    <span>Videographer</span>
+                    <span>Visual Storyteller</span>
+                    <span>Creative Director</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="about.html" class="scroll-down"><span>Explore More</span><i class="fas fa-chevron-down"></i></a>
+</section>
+</main>
+<footer class="footer">
+    <div class="container footer-content">
+        <a href="home.html" class="logo"><span>&lt;</span>LP<span>/&gt;</span></a>
+        <p>© <span id="year"></span> Lekan Peter. All rights reserved.</p>
+        <div class="footer-socials">
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+<script src="Portfolio.js"></script>
+</body>
+</html>
